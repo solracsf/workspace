@@ -26,4 +26,8 @@
 		    <step>OCA\Workspace\Migration\RegisterWorkspaceUsersGroup</step>
 	    </install>
     </repair-steps>
+    <settings>
+        <admin-section>OCA\Workspace\Sections\Section</admin-section>
+        <admin>OCA\Workspace\Settings\WorkspaceAdmin</admin>
+    </settings>
 </info>
