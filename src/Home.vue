@@ -170,7 +170,7 @@ export default {
 		// stop the loading.
 		// data object/json from space
 		generateDataCreated(data) {
-			// It possible which the data is not an array but an object.
+			// It possibles which the data is not an array but an object.
 			// Because, the `/apps/workspace/spaces` route return an object if there is one element.
 			if (!Array.isArray(data)) {
 				data = [data]
